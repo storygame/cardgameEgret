@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleLibSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%" height="100%" x="0" y="0" scaleX="1" scaleY="1" source="roleLibBackground_jpg"/>
+	<e:Group height="90" left="-1" right="1" top="1" anchorOffsetY="0">
+        <e:Group id="coin" y="0" width="140" height="75" x="780" scaleY="1">
+		<e:Image id="addCoin" width="150" height="50" x="10.5" y="12.5" source="coinPanel_png"/>
+		<e:Button id="coins" label="" x="1.33" y="12.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="45" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="coin_png" source.down="coin_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Label id="iconNum" text="100" x="42.32" y="18.92" width="72.66" anchorOffsetX="0" anchorOffsetY="0" height="33" textColor="0xfcf7f7" size="25" verticalAlign="middle"/>
+	</e:Group>
+		<e:Image id="clsBtn" width="200" height="90" x="0" y="0" anchorOffsetX="0" source="back_png"/>
+	</e:Group>
+	<e:Group height="546.66" anchorOffsetY="0" anchorOffsetX="0" width="400" left="57" bottom="0">
+		<e:Image id="roleImg" width="240" height="521" x="89" y="4" source=""/>
+
+		<e:Image id="rightBtn" width="50" height="50" x="336" y="230" scaleX="1" scaleY="1" source="rightBtn_png"/>
+		<e:Image id="leftBtn" width="50" height="50" x="18" y="230" scaleX="1" scaleY="1" source="leftBtn_png"/>
+		<e:Group id="unlock" width="122" height="116" x="295.41" y="-17.46" anchorOffsetX="0" anchorOffsetY="0" rotation="28.09">
+			<e:Image x="49.11" y="-9.51" width="70" height="70" source="lock_png"/>
+		</e:Group>
+    </e:Group>
+
+
+	
+	<e:Group id="purchaseResultGroup" verticalCenter="0" horizontalCenter="0" visible="false">
+		<e:Image horizontalCenter="0" verticalCenter="0" width="600" height="352" source="smallPanel2_png"/>
+		<e:Label id="purchaseResultLabel" text="购买成功" textColor="0x2b2a29" size="40" horizontalCenter="0" verticalCenter="-48"/>
+		<e:Image id="backToRoleLibBtn" source="lock_png" x="250" y="262" anchorOffsetX="0" width="106" anchorOffsetY="0" height="106"/>
+	</e:Group>
+	<e:Scroller id="selfInfoScroller" width="430" height="475" x="601" y="135">
+		<e:Group height="800">
+			<e:Label id="roleInfoLabel" text="Label" width="430" textColor="0x0c0c0c" size="20"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

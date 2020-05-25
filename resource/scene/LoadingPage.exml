@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingPageSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16b7006a7e9" ></w:Config>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image height="136" anchorOffsetX="0" anchorOffsetY="0" bottom="0" left="0" right="0" source="background_black_png" alpha="0.5"/>
+		<e:Image id="loadCircleImg" source="loading_png" x="980" y="570.42" anchorOffsetX="47.5" anchorOffsetY="45"/>
+	</e:Group>
+</e:Skin>

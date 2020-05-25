@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattlePageSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166f946aa08" ></w:Config>
+	<e:Image id="background" left="0" right="0" top="0" bottom="0" source="background_mainpage_png" alpha="0.5"/>
+
+	<e:Image id="selfRoleImg" width="128" height="128" x="918.21" y="433.15" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="enemyRoleImg" width="128" height="128" x="85.79" y="82.54" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="HP_value1" text="0" x="1088" y="536.78" anchorOffsetX="0" width="78.55" anchorOffsetY="0" height="37.58" textColor="0x161313"/>
+	<e:Label id="HP_value2" text="0" x="38.5" y="101.21" anchorOffsetX="0" width="78.55" anchorOffsetY="0" height="37.58" textColor="0x0a0808"/>
+	<e:Label id="mana_value1" text="0" x="1088" y="591.94" anchorOffsetX="0" width="96" anchorOffsetY="0" height="40" textColor="0x0c0c0c"/>
+	<e:Label id="mana_value2" text="0" x="39.07" y="22.21" anchorOffsetX="0" width="96" anchorOffsetY="0" height="40" textColor="0x141111"/>
+	<e:Label id="protect_value1" text="0" x="988.74" y="348" anchorOffsetX="0" width="85" anchorOffsetY="0" height="38" textColor="0x0c0303"/>
+	<e:Label id="protect_value2" text="0" x="163.1" y="237.15" anchorOffsetX="0" width="85" anchorOffsetY="0" height="38" textColor="0x070707"/>
+	<e:Label id="useCardRemark" text="星星超限" x="147.31" y="295" anchorOffsetX="0" width="207.33" anchorOffsetY="0" height="72.42" visible="false"/>
+	<e:Image x="1058" y="424.36" scaleX="0.1" scaleY="0.1" source="血量图标_png" anchorOffsetX="0" width="252.76" anchorOffsetY="0" height="281.06"/>
+	<e:Image x="8.5" y="90" scaleX="0.1" scaleY="0.1" source="血量图标_png" anchorOffsetX="0" width="252.76" anchorOffsetY="0" height="311.36"/>
+	<e:Image x="1015.9" y="580.9" scaleX="0.1" scaleY="0.1" source="令牌_png" anchorOffsetX="0" width="580.61" anchorOffsetY="0" height="595.76"/>
+	<e:Image x="-15.46" y="12.24" scaleX="0.1" scaleY="0.1" source="令牌_png" anchorOffsetX="0" width="640" anchorOffsetY="0" height="520"/>
+	<e:Image x="942.93" y="350" scaleX="0.1" scaleY="0.1" source="护甲图标_png" anchorOffsetX="0" width="249.36" anchorOffsetY="0" height="254.36"/>
+	<e:Image x="103.67" y="242.75" scaleX="0.1" scaleY="0.1" source="护甲图标_png" anchorOffsetX="0" width="249.36" anchorOffsetY="0" height="224.06"/>
+	<e:Group id="WinGroup" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="231" height="149" horizontalCenter="0" verticalCenter="0" scaleX="2" scaleY="2" source="胜利页面_png"/>
+	</e:Group>
+	<e:Group id="TieGroup" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="231" height="149" horizontalCenter="0" verticalCenter="0" scaleX="2" scaleY="2" source="background_mainpage_png"/>
+	</e:Group>
+	<e:Group id="FailGroup" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="231" height="149" horizontalCenter="0" verticalCenter="0" scaleX="2" scaleY="2" source="失败_png"/>
+	</e:Group>
+	<e:Image id="endTurnBtn" source="回合结束_png" x="1002.21" y="256.15" width="88" height="88"/>
+	<e:Group id="balanceGroup" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image left="0" right="0" top="0" bottom="0" alpha="0.5"/>
+		<e:Group id="balancePannel" width="500" height="300" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0" verticalCenter="0">
+		<e:Image left="0" right="0" top="0" bottom="0" alpha="0.3" source="background_mainpage_png"/>
+		<e:Image width="500" height="60" x="0" y="0"/>
+		<e:Group width="500" height="240" x="0" y="60">
+			<e:Image width="64" height="64" x="58" verticalCenter="0" source="background_mainpage_png"/>
+			<e:Image width="308" height="324" x="170" y="32" scaleX="0.1" scaleY="0.1" source="玉石_png"/>
+			<e:Image x="170" y="103.8" scaleX="0.1" scaleY="0.1" source="background_mainpage_png" anchorOffsetX="0" width="344.24" anchorOffsetY="0" height="261.82"/>
+			<e:Label text="Lv." x="170" y="175" italic="true" bold="true" textColor="0xefeaea"/>
+			<e:ProgressBar width="170" height="20" x="288" y="181"/>
+			<e:Label id="Coins" text="5" x="244" y="32" textColor="0xefeaea"/>
+			<e:Label id="Exp" text="5" x="244" y="108" textColor="0xefeaea"/>
+			<e:Label id="Lv" text="5" x="246" y="178" textColor="0xefeaea"/>
+		</e:Group>
+		</e:Group>
+	</e:Group>
+	<e:Group id="EnemyCardGroup" width="1052" height="226" x="78" y="10" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Group id="SelfCardGroup" width="924" height="246" x="12" y="356" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Button id="backBtn" label="退出" x="995.79" y="102.91"/>
+</e:Skin>

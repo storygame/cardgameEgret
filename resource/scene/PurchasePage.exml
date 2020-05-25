@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PurchasePageSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="167e5f1983b" ></w:Config>
+	
+		<e:Image width="1136" height="640" x="0" y="0" source="bigPanel1_jpg"/>
+		<e:Image id="goBack" width="200" height="90" x="0" y="0" source="back_png"/>
+		<e:Group id="coin" x="780" y="0" width="140">
+				<e:Image id="CoinPanel" width="150" height="50" x="10.05" y="24.73" source="coinPanel_png"/>
+				<e:Button id="coins" label="" x="-8" y="23.24" anchorOffsetX="0" width="45" anchorOffsetY="0" height="45" scaleX="1" scaleY="1">
+					<e:skinName>
+						<e:Skin states="up,down,disabled">
+						<e:Image width="100%" height="100%" source="coin_png" source.down="coin_png"/>
+						<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+						</e:Skin>
+					</e:skinName>
+				</e:Button>
+				<e:Label id="coinNum" text="100" x="42.32" y="30.48" width="72.66" textAlign="left" anchorOffsetX="0" anchorOffsetY="0" height="33.34" textColor="0xf4eded" size="25" verticalAlign="middle"/>
+		</e:Group>
+		
+		<e:Group width="220" height="400" x="96" y="168" anchorOffsetY="0">
+			<e:Image id="Buy1Panel" width="220" height="400" x="0" y="0" source="mediumPanel2_jpg"/>
+			<e:Image id="small_gift" width="224.3" height="221.39" x="-3.55" y="30.73" anchorOffsetY="0" anchorOffsetX="0" source="cardpool_png"/>
+			<e:Image id="Buy1" width="220" height="75" x="-0.03" y="324.69" source="buy_png" anchorOffsetY="0" anchorOffsetX="0"/>
+			<e:Label text="1200" y="263.69" textColor="0x070707" fontFamily="Verdana" anchorOffsetY="0" horizontalCenter="-31.5" height="42.12" textAlign="center"/>
+			<e:Button id="coinsUnit" label="" x="130" y="255" anchorOffsetX="0" width="45" anchorOffsetY="0" height="45" scaleX="1" scaleY="1">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="coin_png" source.down="coin_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group width="220" height="400" x="442.67" y="168" anchorOffsetY="0">
+			<e:Image id="Buy2Panel" width="220" height="400" source="mediumPanel2_jpg" verticalCenter="0" horizontalCenter="0"/>
+			<e:Image id="medium_gift" width="255.75" height="282.54" x="-21.74" y="-2.17" anchorOffsetY="0" anchorOffsetX="0" source="gift_png"/>
+			<e:Image id="Buy2" width="220" height="75" x="-0.03" y="324.69" source="buy_png" anchorOffsetY="0" anchorOffsetX="0"/>
+			<e:Label text="36 ￥" x="79.82" y="270.72" textColor="0x070707" fontFamily="Verdana"/>
+		</e:Group>
+		<e:Group width="220" height="400" x="818.67" y="168" anchorOffsetY="0">
+			<e:Image id="Buy3Panel" width="220" height="400" x="0" y="0" source="mediumPanel2_jpg"/>
+			<e:Image id="big_gift" width="255.75" height="282.54" x="-13.74" y="-34.17" anchorOffsetY="0" anchorOffsetX="0" source="bigGift_png"/>
+			<e:Image id="Buy3" width="220" height="75" x="-0.03" y="324.69" source="buy_png" anchorOffsetY="0" anchorOffsetX="0"/>
+			<e:Label text="72 ￥" x="79.82" y="270.72" textColor="0x070707" fontFamily="Verdana"/>
+		</e:Group>
+	<e:Image id="openPackageBGImg" left="0" right="0" top="0" bottom="0" source="pure_black_jpg" alpha="0.8" visible="false"/>
+	<e:Group id="purchaseShade" left="0" right="0" top="0" bottom="0" visible="false"/>
+
+	
+</e:Skin>

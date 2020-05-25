@@ -1,0 +1,13 @@
+{"file":"cardCostFont.png","frames":{
+"0":{"x":73,"y":1,"w":33,"h":44,"offX":9,"offY":4,"sourceW":50,"sourceH":50},
+"1":{"x":108,"y":1,"w":16,"h":44,"offX":18,"offY":4,"sourceW":50,"sourceH":50},
+"2":{"x":30,"y":132,"w":26,"h":44,"offX":13,"offY":5,"sourceW":50,"sourceH":50},
+"3":{"x":68,"y":86,"w":28,"h":44,"offX":12,"offY":5,"sourceW":50,"sourceH":50},
+"4":{"x":36,"y":1,"w":35,"h":44,"offX":8,"offY":4,"sourceW":50,"sourceH":50},
+"5":{"x":1,"y":96,"w":27,"h":43,"offX":11,"offY":4,"sourceW":50,"sourceH":50},
+"6":{"x":1,"y":50,"w":32,"h":44,"offX":11,"offY":3,"sourceW":50,"sourceH":50},
+"7":{"x":98,"y":86,"w":27,"h":44,"offX":12,"offY":4,"sourceW":50,"sourceH":50},
+"8":{"x":35,"y":86,"w":31,"h":44,"offX":10,"offY":4,"sourceW":50,"sourceH":50},
+"9":{"x":1,"y":1,"w":33,"h":47,"offX":10,"offY":3,"sourceW":50,"sourceH":50},
+"+":{"x":77,"y":47,"w":39,"h":37,"offX":6,"offY":6,"sourceW":50,"sourceH":50},
+"*":{"x":36,"y":47,"w":39,"h":37,"offX":6,"offY":6,"sourceW":50,"sourceH":50}}}

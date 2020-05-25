@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardEditorSkin" width="795.2" height="448" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Group width="795.2" height="448" x="0" y="0">
+		<e:Image width="100%" height="100%" x="0" y="0" source="bigPanel1_jpg"/>
+			<e:Group width="287.18" height="52" x="497" y="10" anchorOffsetX="0">
+				<e:Image id="removeCard" width="100" height="45" x="179.09" y="2.42" source="removeCard_png"/>
+			</e:Group>
+	</e:Group>
+	<e:Group id="TmpCollectionGroup" height="386" y="62" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" width="795.2">
+		<e:Group id="MiddleGroup" width="685.2" height="366" x="55" scaleX="1" scaleY="1" y="10"/>
+		<e:Image id="leftpage" width="45" height="45" x="10" anchorOffsetX="0" source="leftBtn_png" anchorOffsetY="0" y="150"/>
+		<e:Image id="rightpage" width="45" height="45" x="740" y="150" scaleX="1" scaleY="1" anchorOffsetX="0" source="rightBtn_png" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Group id="FilterGroup" width="477.12" height="52" x="10" y="10">
+	</e:Group>
+</e:Skin>

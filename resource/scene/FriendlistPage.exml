@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendlistPageSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller width="200" x="0" top="0" bottom="0">
+		<e:Group x="542" top="0" bottom="0">
+			<e:List id="friendlist" width="200" top="0" bottom="0" horizontalCenter="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Button id="closeBtn" label="x" x="1019" y="13"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="infoViewSkin" width="454.4" height="256" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="InfoPanel" width="454.4" height="256" x="0" y="0">
+		<e:Image source="smallPanel2_png" x="0" y="0" width="100%" height="100%"/>
+		<e:Image id="affirmBtn" source="yes_png" x="246.67" y="190.67" anchorOffsetX="0" width="182" anchorOffsetY="0" height="52"/>
+		<e:Image id="cancelBtn" source="no_png" x="32" y="190.66" width="182" height="52"/>
+		<e:Label id="infotext" text="消息" x="35.67" y="26.33" size="15" textColor="0x070707" anchorOffsetX="0" width="382" anchorOffsetY="0" height="151" textAlign="center" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GuideShadeSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16ba8ede6c2" ></w:Config>
+	<e:Group id="backGroundStoryGroup" left="0" right="0" top="0" bottom="0">
+
+		<e:Image id="UserImage1" width="300" height="370" x="22.49" y="127.64" anchorOffsetX="0" anchorOffsetY="0" source="npc1_png"/>
+		<e:Image id="UserImage2" width="300" height="370" x="805.33" y="125.54" anchorOffsetX="-2.73" anchorOffsetY="2.69" rotation="359.61"/>
+
+		<e:Group id="BottomStoryGroup" width="1136" height="180" x="0" y="460" scaleX="1" scaleY="1">
+			<e:Image width="100%" height="228" x="0" y="-48" alpha="1" source="dialogPanelA_png" anchorOffsetY="0"/>
+			<e:Label id="BottomStoryText" text="你好你好好你好你好好你好你好好你好你好好你好你好好你好你好好你好你好好" x="163.65" y="34.85" anchorOffsetX="0" width="942.01" anchorOffsetY="0" height="108.79" size="25" verticalAlign="middle"/>
+			<e:Label id="BottomName" text="乐正箐" x="4.19" y="71.5" size="30" backgroundColor="0xffffff" background="false" borderColor="0x020000" textColor="0xc6c6c6" height="42.12" anchorOffsetY="0" bold="true" anchorOffsetX="0" width="146.68" verticalAlign="middle" textAlign="center"/>
+
+
+			<e:Group id="bottomNext" left="0" right="0" top="-458" bottom="0" anchorOffsetY="0"/>
+
+			<e:Group id="bottomShade" left="0" right="0" top="-460" bottom="2" anchorOffsetY="0">
+
+
+
+			</e:Group>
+		</e:Group>
+
+		<e:Image id="ImgJumpStory" width="169" height="47" x="806" y="28" anchorOffsetX="0" anchorOffsetY="0" source="jump_png"/>
+
+	</e:Group>
+</e:Skin>

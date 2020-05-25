@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FriendsScollerList" width="150" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="150" height="80" x="0" y="0">
+		<e:Image id="friend_avatar_img" height="60" x="0" scaleX="1" scaleY="1" width="60" source="{data.avatar}" y="10"/>
+		<e:Label size="15" fontFamily="NSimSun" scaleX="1" scaleY="1" verticalAlign="middle" textAlign="left" bold="true" rotation="0.22" width="85" anchorOffsetX="0" anchorOffsetY="0" height="60" right="0" textColor="0x191818" y="10" text="{data.nickname}"/>
+	</e:Group>
+</e:Skin>

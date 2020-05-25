@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="btnWithReverseSkin" width="150" height="41" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16ab554fb01" ></w:Config>
+	<e:Image id="enemyTurn" source="enemyTurn_png" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" skewX="180" width="150" height="41" y="41"/>
+	<e:Image id="turnOver" source="turnOver_png" left="0" right="0" top="0" bottom="110" width="150" height="41" anchorOffsetY="0"/>
+</e:Skin>

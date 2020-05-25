@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="cardView" width="108" height="159.4" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="cardFacceGroup" left="0" right="0" top="0" bottom="0" includeInLayout="true">
+		<e:Image id="cardImg" height="106" x="14" y="6" width="80" anchorOffsetX="0" anchorOffsetY="0" source="OuterMeteoriteAxe_jpg"/>
+		<e:Image id="CardFace" scaleX="1" scaleY="1" source="cardBackground4_png" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" width="108" height="159.4"/>
+		<e:BitmapLabel id="cardCost" width="52.09" height="54.69" text="1" font="cardCostFont_fnt" scaleX="0.28" scaleY="0.28" anchorOffsetX="0" anchorOffsetY="0" rotation="359.17" y="3.75" x="3.75"/>
+		<e:Label id="cardDesc" text="造成5点伤害" x="22" y="111.35" anchorOffsetX="0" width="69" anchorOffsetY="0" height="36.5" textColor="0x0a0000" size="7" verticalAlign="middle" bold="true" textAlign="center"/>
+		<e:Label id="cardName" text="诛仙剑" x="19" y="88.25" anchorOffsetX="0" width="73.6" anchorOffsetY="0" height="15" textColor="0x020000" size="11" bold="true" textAlign="center" verticalAlign="middle"/>
+		
+	</e:Group>
+	
+
+	<e:Image id="CardBG" scaleX="1" scaleY="1" source="cardBack_png" anchorOffsetX="0" anchorOffsetY="0" width="108" x="0" height="159.4" y="0"/>
+	<e:Image id="touchiimage" alpha="0" scaleX="1" scaleY="1" source="cardBack_png" width="108" x="0" height="159.4" y="0"/>
+</e:Skin>

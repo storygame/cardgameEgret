@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mailItemSkin" width="244" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="mailIcon" width="60" height="60" x="15" anchorOffsetX="0" anchorOffsetY="0" verticalCenter="0" source="info_png"/>
+	<e:Label id="mail_short_title" text="{data.short_title}" x="87" y="11" textColor="0x070707" size="25" anchorOffsetX="0" width="151" anchorOffsetY="0" height="69" verticalAlign="middle" textAlign="center"/>
+</e:Skin>

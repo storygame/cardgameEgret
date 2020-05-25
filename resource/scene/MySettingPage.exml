@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SettingPageSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+
+	<e:Group anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0">
+		<e:Group id="closeUsedGroup" left="0" right="0" top="0" bottom="0"/>
+		<e:Image width="613" height="393" horizontalCenter="0" verticalCenter="0" source="bigPanel2_jpg"/>
+		<e:Group width="474" height="126" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-33.5" verticalCenter="104.5">
+			<e:Label text="音效" x="25" y="42" textColor="0x191818" size="20"/>
+			<e:HSlider id="soundSlider" width="280" height="25" x="170" y="44.5" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+		<e:Group width="474" height="126" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" horizontalCenter="-33.5" verticalCenter="-50.5">
+			<e:Label text="背景音乐" x="25" y="42" textColor="0x0c0c0c" size="20"/>
+			<e:HSlider id="musicSlider" width="280" height="25" x="170.5" y="44.5" anchorOffsetX="0" anchorOffsetY="0"/>
+		</e:Group>
+	</e:Group>
+	<e:CheckBox id="soundCheckBox" label="音效" horizontalCenter="45.5" verticalCenter="-154.5"/>
+	<e:CheckBox id="musicCheckBox" label="背景音乐" enabled="true" horizontalCenter="-117.5" verticalCenter="-155.5"/>
+</e:Skin>

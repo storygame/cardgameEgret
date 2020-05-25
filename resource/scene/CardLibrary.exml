@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CardLibrarySkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="167e10386b5" ></w:Config>
+	<e:Image width="1136" height="640" x="0" y="0" scaleX="1" scaleY="1" source="bigPanel3_png"/>
+	<e:Image id="goBack" width="200" height="90" x="0" y="0" source="back_png"/>
+	<e:Group id="cardStrategy" width="200" height="640" x="936" y="0"/>
+	<e:Group id="CardLibraryGroup" height="550.67" y="89.33" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0">
+		<e:Group id="CardPanel" width="936" height="550" x="100" y="0" scaleX="1" scaleY="1">
+		</e:Group>
+	</e:Group>
+	<e:Group id="FilterGroup" width="800" height="90" x="334" y="0">
+	</e:Group>
+	<e:Image id="LeftCardPage" width="86.36" height="82" x="15" y="315" anchorOffsetX="0" source="leftBtn_png" anchorOffsetY="0"/>
+	<e:Image id="RightCardPage" width="86.31" height="82" x="1039.69" y="315" scaleX="1" scaleY="1" anchorOffsetX="0" source="rightBtn_png" anchorOffsetY="0"/>
+	<e:Group id="CardIllustrationsBackGroundGroup" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Group id="CardIllustrationShadeGroup" left="0" right="0" top="0" bottom="0">
+			<e:Image width="100%" height="100%" x="0" y="0" scaleX="1" scaleY="1" source="background_black_png" alpha="0.4"/>
+		</e:Group>
+		<e:Group id="CardIllustrations" height="450" width="910" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="CardIllustrationsBackGround" top="0" bottom="0" anchorOffsetX="0" width="910" horizontalCenter="0" alpha="1" source="bigPanel3_png"/>
+			<e:Label id="CaedIllustrationDesc" text="一张普通的卡牌" x="384" anchorOffsetX="0" width="382" anchorOffsetY="0" height="230" verticalCenter="0" verticalAlign="middle" bold="true" textAlign="center" textColor="0x0a0909" size="25"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

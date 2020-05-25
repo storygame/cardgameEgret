@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166f7a3371b" ></w:Config>
+	<e:Image id="login" top="0" bottom="0" x="0" width="1136" source="loading_background1_jpg"/>
+	<e:Label id="startGame" text="点击此处进入游戏" y="424" fontFamily="SimSun" textColor="0x0a0909" anchorOffsetX="0" width="409" anchorOffsetY="0" height="156" verticalAlign="middle" textAlign="center" horizontalCenter="0"/>
+	<e:Image source="game_name_png" x="-30" y="90" anchorOffsetY="0" height="250" width="1187.5"/>
+	<e:Group id="loginShadeGroup" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image width="1136" height="640" y="0" x="0" alpha="0.4" source=""/>
+	</e:Group>
+</e:Skin>

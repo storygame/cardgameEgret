@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MatchPageSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1674081b240" ></w:Config>
+	<e:Image top="0" bottom="0" left="0" right="0" source="background_mainpage_png"/>
+	<e:Image id="selfRoleImg" width="120" height="120" x="910" y="408" anchorOffsetX="0" anchorOffsetY="0" source="role1_avatar_png"/>
+	<e:Image id="enemyRoleImg" width="120" height="120" x="586" y="110" anchorOffsetX="0" anchorOffsetY="0" source="role1_avatar_png"/>
+	<e:Group id="coin" y="0" width="140" height="75" x="780" scaleY="1">
+		<e:Image id="addCoin" width="150" height="50" x="10.5" y="14.5" source="coinPanel_png"/>
+		<e:Button id="coins" label="" x="1.33" y="12.5" anchorOffsetX="0" width="45" anchorOffsetY="0" height="45" scaleX="1" scaleY="1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="coin_png" source.down="coin_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+		<e:Label id="iconNum" text="100" x="42.32" y="18.92" width="72.66" anchorOffsetX="0" anchorOffsetY="0" height="33" textColor="0xFCF7F7" size="25" verticalAlign="middle"/>
+	</e:Group>
+	<e:Button id="matchAgainBtn" label="" x="720" anchorOffsetX="0" width="200" anchorOffsetY="0" height="70" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="matchAgain_png" source.down="matchAgain_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="cancelMatchBtn" label="" x="720" anchorOffsetX="0" width="200" anchorOffsetY="0" height="70" verticalCenter="0">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cancelMatch_png" source.down="cancelMatch_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="cancelReadyBtn" label="" x="897.61" y="544" anchorOffsetX="0" width="148" anchorOffsetY="0" height="78">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="cancleBtn_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Group id="ChatGroup" width="568" height="640" x="0" y="0">
+		<e:Image id="WorldBlackImage" width="568" height="640" x="0" y="0" alpha="1" scaleX="1" scaleY="1" source="chatPanel_png"/>
+		<e:Group id="ChatInputGroup" height="96" x="0" y="544" scaleX="1" scaleY="1" width="568">
+		<e:Label id="ChatModeInfo" text="[世界]" x="33" y="30" width="65" height="39" verticalAlign="middle" bold="true" anchorOffsetX="0" anchorOffsetY="0" size="15" textColor="0x202021" textAlign="center"/>
+		<e:TextInput id="ChatSender" x="100" y="28" scaleX="1" scaleY="1" width="356" height="40" skinName="skins.TextInputSkin" textColor="0x000000" anchorOffsetX="0" anchorOffsetY="0" rotation="359.88"/>
+		<e:Button id="SendMessage" label="" x="471" y="26" anchorOffsetX="0" width="66" anchorOffsetY="0" height="45">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="send_button_png" source.down="send_button_png" source.disabled="send_button_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		</e:Group>
+		<e:Group id="ChatScrollGroup" width="446" height="522" x="100" y="22" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Scroller id="WorldChatScroller" width="450" height="534" x="4" y="-6" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="WorldScrollerList"/>
+		</e:Scroller>
+		</e:Group>
+		<e:Group id="ChatButtonsGroup" width="100" height="544" x="0" y="0" scaleX="1" scaleY="1">
+		<e:Image id="WorldButton" width="76" height="268" x="4.19" y="14.06" scaleX="1" scaleY="1" anchorOffsetX="-1.81" anchorOffsetY="2.06" source="background_black_png" alpha="0"/>
+		<e:Image id="FriendButton" width="70" height="269" x="10" y="284" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0" source="background_black_png" alpha="0"/>
+		</e:Group>
+		<e:Group id="CloseChatPanel" width="100%" height="100%" x="568" y="0" scaleX="1" scaleY="1">
+			<e:Button id="readyGameBtn" label="" x="316" y="544" anchorOffsetX="0" width="152" anchorOffsetY="0" height="76">
+				<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="readyBtn_png" source.down="readyBtn_png" source.disabled="readyBtn_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Group>
+		<e:Group id="FriendListGroup" width="150" height="640" x="568" visible="false">
+		<e:Image width="100%" height="640" x="0" y="0" source="sidebar_panel_png"/>
+		<e:Scroller id="FriendScroller" width="136" height="614" x="6" y="14" scaleX="1" scaleY="1" anchorOffsetY="0" anchorOffsetX="0">
+			<e:List id="FriendScrollerList" itemRendererSkinName="FriendlistPageSkin" width="150"/>
+		</e:Scroller>
+		</e:Group>
+	</e:Group>
+	<e:Button id="backBtn" label="" x="544" y="-4" width="200" height="90">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="back_png" source.down="back_png" source.disabled="back_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

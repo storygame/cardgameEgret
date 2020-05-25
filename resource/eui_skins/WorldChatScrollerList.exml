@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorldChatScrollerList" width="468" height="90" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="468" height="90" x="0" y="1">
+		<e:Image id="user_avatar_img" height="60" x="0" scaleX="1" scaleY="1" width="60" verticalCenter="10" source="{data.avatar}" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Label text="{data.sender_name}" x="0" y="0" size="15" fontFamily="NSimSun" textColor="0x262525" width="60" height="20"/>
+		<e:Image id="chatDialogImg" width="390" height="90" x="55" y="0" source="chatDialog_png" anchorOffsetX="0"/>
+		<e:Label text="{data.message}" x="102" y="25.5" anchorOffsetX="0" width="310" size="20" fontFamily="PMingLiU" anchorOffsetY="0" height="41" verticalAlign="middle" textAlign="left" textColor="0x111010"/>
+	</e:Group>
+</e:Skin>

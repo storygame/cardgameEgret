@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SingleGamePageSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="167f1ac1a7d" ></w:Config>
+	<e:Group width="1136" height="640" x="0" y="0">
+		<e:Image id="SceneImage" width="100%" height="100%" x="-2" y="-3.03" scaleX="1" scaleY="1" alpha="0.75" source="story_bg_1_jpg"/>
+		<e:Image id="UserImage1" width="300" height="370" x="22.49" y="159.64" anchorOffsetX="0" anchorOffsetY="0" source="npc1_png"/>
+		<e:Image id="UserImage2" width="300" height="370" x="805.33" y="153.54" anchorOffsetX="-2.73" anchorOffsetY="2.69" rotation="359.61"/>
+
+
+		<e:Group id="BottomStoryGroup" width="1136" height="180" x="0" y="460" scaleX="1" scaleY="1">
+			<e:Image width="100%" height="100%" x="0" y="0" alpha="1" source="dialogPanelA_png"/>
+			<e:Label id="BottomStoryText" text="你好你好好你好你好好你好你好好你好你好好你好你好好你好你好好你好你好好" x="163.65" y="106.85" anchorOffsetX="0" width="958.01" anchorOffsetY="0" height="32.79" size="25" verticalAlign="middle"/>
+			<e:Label id="BottomName" text="乐正箐" x="4.19" y="107.5" size="30" backgroundColor="0xffffff" background="false" borderColor="0x020000" textColor="0xc6c6c6" height="42.12" anchorOffsetY="0" bold="true" anchorOffsetX="0" width="146.68" verticalAlign="justify" textAlign="center"/>
+
+
+			<e:Group id="bottomNext" left="0" right="0" top="-458" bottom="0" anchorOffsetY="0"/>
+
+			<e:Group id="bottomShade" left="0" right="0" top="-460" bottom="2" anchorOffsetY="0">
+
+
+
+			</e:Group>
+		</e:Group>
+		<e:Group id="MiddleTextGroup" width="710" height="400" x="213" y="120" anchorOffsetX="0" anchorOffsetY="0" visible="false">
+			<e:Image width="100%" height="100%" x="0" y="0" alpha="0" source="background_mainpage_png"/>
+			<e:Label id="MiddleStoryText" text="" x="30" y="30" anchorOffsetX="0" width="646.73" anchorOffsetY="0" height="326.97" textColor="0x020000"/>
+
+			<e:Group id="middleNext" left="0" right="0" top="0" bottom="0" visible="false"/>
+			<e:Group id="middleShade" left="0" right="0" top="0" bottom="0" visible="false"/>
+		</e:Group>
+		<e:Image id="ImgJumpStory" width="169" height="47" x="806" y="28" anchorOffsetX="0" anchorOffsetY="0" source="jump_png"/>
+		<e:Image id="goBack" width="200" height="90" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="back_png"/>
+	
+	</e:Group>
+	
+	<e:Group id="balanceGroup" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Image left="0" right="0" top="0" bottom="0" alpha="0.5"/>
+		<e:Group id="balancePannel" width="681" height="384" anchorOffsetX="0" anchorOffsetY="0" y="128" horizontalCenter="0">
+			<e:Image alpha="1" anchorOffsetX="0" anchorOffsetY="0" width="681" height="384" source="smallPanel2_png" x="0" y="0"/>
+			<e:Group anchorOffsetY="0" left="0" right="0" top="0" bottom="0" anchorOffsetX="0" width="681" height="383">
+				
+				<e:Image width="45" height="45" y="37" x="95.6" source="exp_png"/>
+				<e:Label id="Exp" text="5" x="158.56" y="45" width="90" textColor="0x0c0c0c"/>
+				<e:Image width="45" height="45" x="438.9" y="37" source="coin_png"/>
+				<e:Label id="Coins" text="5" x="488.3" y="47.48" width="109.7" textColor="0x0c0c0c" anchorOffsetX="0" anchorOffsetY="0" height="31.52"/>
+				<e:Label text="Lv." x="90" y="113" italic="true" bold="true" textColor="0x0c0c0c"/>
+				<e:Label id="Lv" text="5" x="140" y="115" textColor="0x070707"/>
+				<e:ProgressBar id="LvBar" width="370" height="20" x="212" y="117"/>
+				<e:Label text="关卡奖励:" x="86" y="180" size="30" textColor="0x0c0c0c"/>
+				<e:Scroller id="presentCardScoller" width="344" height="130" x="230" y="172" anchorOffsetY="0" anchorOffsetX="0">
+					<e:Label id="presentCardLabel" text="铁剑" x="0" y="10" anchorOffsetY="0" height="20" size="20" textColor="0x070707" textAlign="center" verticalAlign="middle"/>
+				</e:Scroller>
+				
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="166f946aa08" ></w:Config>
+
+	<e:Label text="萌化" x="822.62" y="295"/>
+	<e:Image id="selfRoleImg" width="100" height="160" x="934.32" y="483.76" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="enemyRoleImg" width="123.03" height="141.21" x="85.79" y="82.54" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Label id="cute_value1" text="0" x="886.62" y="277.42" anchorOffsetX="0" width="78.55" anchorOffsetY="0" height="37.58" textColor="0xffffff"/>
+	<e:Label id="cute_value2" text="0" x="169.55" y="44.96" anchorOffsetX="0" width="78.55" anchorOffsetY="0" height="37.58" textColor="0xFFFFFF"/>
+	<e:Label id="star_value1" text="0" x="1088" y="483.76" anchorOffsetX="0" width="96" anchorOffsetY="0" height="40"/>
+	<e:Label id="star_value2" text="0" x="37.67" y="133.14" anchorOffsetX="0" width="96" anchorOffsetY="0" height="40"/>
+	<e:Label id="protect_value2" text="0" x="163.1" y="223.75" anchorOffsetX="0" width="85" anchorOffsetY="0" height="38"/>
+	<e:Button id="endTurnBtn" label="结束回合" x="988" y="295"/>
+	<e:Label id="useCardRemark" text="星星超限" x="147.31" y="295" anchorOffsetX="0" width="207.33" anchorOffsetY="0" height="72.42" visible="false"/>
+	<e:Label text="星" x="1051" y="483.76" textColor="0xfffcfc"/>
+	<e:Label text="星" x="0" y="133.14" textColor="0xFFFCFC"/>
+	<e:Label text="护甲" x="96" y="223.75"/>
+	<e:Label text="萌化" x="103.67" y="42.42"/>
+	<e:Group x="-1.72" y="540.32">
+		<e:Image source="卡背_png" x="0" y="0" anchorOffsetX="0" width="128.03" anchorOffsetY="0" height="181.11" rotation="351.33"/>
+		<e:Image source="卡背_png" x="33.31" y="9.13" width="128.03" height="181.11" anchorOffsetX="0" anchorOffsetY="0"/>
+		<e:Image source="卡背_png" x="64.54" y="20.65" width="128.03" height="181.11" anchorOffsetX="0" anchorOffsetY="0" rotation="8.24"/>
+	</e:Group>
+	<e:Image source="卡背_png" x="986.41" y="-32.56" anchorOffsetX="0" width="128.03" anchorOffsetY="0" height="181.11" rotation="351.33"/>
+	<e:Image source="卡背_png" x="984.32" y="-62.02" width="128.03" height="181.11" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image source="卡背_png" x="972.21" y="-91.22" width="128.03" height="181.11" anchorOffsetX="0" anchorOffsetY="0" rotation="8.24"/>
+
+
+
+
+	<e:Image source="卡面_普通_png" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="0" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image source="卡面_普通_png" x="206.53" y="481.35" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="341.34"/>
+	<e:Image source="卡面_普通_png" x="299.1" y="441.83" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="354.16"/>
+	<e:Image source="卡面_普通_png" x="408.8" y="427.77" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="0"/>
+	<e:Image source="卡面_普通_png" x="506.68" y="426.2" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="5.24"/>
+	<e:Image source="卡面_普通_png" x="611.23" y="430.32" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="10.66"/>
+	<e:Image source="卡面_普通_png" x="701.78" y="439.77" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="23.39"/>
+	<e:Group x="955.25" y="210.81" rotation="180">
+		<e:Image source="卡面_普通_png" x="0" y="39.58" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="346.28"/>
+		<e:Image source="卡面_普通_png" x="86.57" y="16.06" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="354.16"/>
+		<e:Image source="卡面_普通_png" x="196.27" y="0" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="0"/>
+		<e:Image source="卡面_普通_png" x="294.15" y="2.43" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="5.24"/>
+		<e:Image source="卡面_普通_png" x="398.7" y="4.55" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="10.66"/>
+		<e:Image source="卡面_普通_png" x="463.25" y="20" anchorOffsetX="0" width="179.37" anchorOffsetY="0" height="254.02" rotation="13.29"/>
+	</e:Group>
+	<e:Image source="卡背_png" x="41.59" y="287.45" width="128.03" height="181.11" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image source="卡面_png" x="41.67" y="287.42" width="128" height="181"/>
+	<e:Group width="200" height="87.88" x="910.71" y="377.92" anchorOffsetY="0"/>
+	<e:Group x="912" y="378" rotation="359.4">
+		<e:Image source="奥秘_png" x="0" y="0" anchorOffsetX="0" width="28" anchorOffsetY="0" height="29.5"/>
+		<e:Group width="200" height="35" x="0" y="0" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Group x="911.99" y="414.37" rotation="359.4">
+		<e:Image source="奥秘_png" x="135.21" y="-36.48" anchorOffsetX="0" width="28.96" anchorOffsetY="0" height="30.47"/>
+		<e:Image source="奥秘_png" x="29.69" y="-36.33" anchorOffsetX="0" width="28.96" anchorOffsetY="0" height="30.47"/>
+		<e:Image source="奥秘_png" x="61.76" y="-34.78" anchorOffsetX="0" width="28.96" anchorOffsetY="0" height="30.47"/>
+		<e:Image source="奥秘_png" x="97.57" y="-37.45" anchorOffsetX="0" width="28.96" anchorOffsetY="0" height="30.47"/>
+		<e:Group width="200" height="33.33" x="-224.93" y="23.82" anchorOffsetY="0"/>
+	</e:Group>
+	<e:Group x="912.01" y="449.85" rotation="359.4">
+		<e:Image source="奥秘_png" x="0" y="1.43" anchorOffsetX="0" width="28.96" anchorOffsetY="0" height="30.47"/>
+		<e:Group width="200" height="33.33" x="0" y="0" anchorOffsetY="0"/>
+	</e:Group>
+</e:Skin>
